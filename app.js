@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Serve the HTML form (index.html)
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../index.html')); // Adjust path as needed
+    res.sendFile(path.join(__dirname, 'PUBLIC/ITC505/LAB-8/index.html')); // Adjust path as needed
 });
 
 // Handle form submission
